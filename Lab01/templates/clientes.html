@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <style>
+      body{
+          margin: 0;
+          background-color: rgb(190, 246, 245);
+      }
+      .header{
+          background-color:#0e94b2;         
+      }
+      .enlaces a{
+          color:black ;
+      }
+      .enlaces a:hover{
+          color:rgb(243, 6, 6) ;
+      }
+      #carrusel{
+          margin-top: 2%;
+          margin-bottom:5%;
+      }
+      h1{
+          padding: 1%;
+      }
+      section{
+          padding: 10px;
+      }
+      .titulo{
+          margin-top: 4%;
+      }
+     .parrafo{
+      padding-left: 10%;
+      padding-right: 10%;
+     }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 style="text-align: center;">
+                ACME
+            </h1>
+            <hr style="border-color: black;">
+
+            <section>
+                <div class="enlaces" style="display: flex;align-content: center;justify-content: center;  ">
+                    <a style="margin-right: 3%; text-decoration: none;" href="/">INICIO</a>
+                    <a style="margin-right: 3%;margin-left: 3%; text-decoration: none;" href="/nosotros">NOSOTROS</a>
+                    <a style="margin-right: 3%;margin-left: 3%;text-decoration: none; " href="/servicios"> SERVICIOS</a>
+                    <a style="margin-right: 3%;margin-left: 3%;text-decoration: none; " href="/clientes">CLIENTES</a>
+                    <a style="text-decoration: none;" href="/contacto">CONTACTANOS</a>
+                </div>
+
+            </section>
+
+            
+            
+            
+    
+            
+        </div>
+        
+    </header>
+    <section id="carrusel">
+        <center>
+            <div class="titulo">
+                <h2>Nuestros principales clientes</h2>
+            </div>
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://mir-s3-cdn-cf.behance.net/projects/404/6b587d29610751.55fb3876b623c.jpg" class="d-block "  width="80%" height="460px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://www.gloria.com.pe/images/large-Envase-Leche-Gloria.jpg" class="d-block " width="80%" height="460px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://peruretail.sfo3.cdn.digitaloceanspaces.com/wp-content/uploads/Laive-Probioticos-1.png" class="d-block " width="80%" height="460px" >
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+
+
+
+            
+        </center>
+       
+    </section>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <footer id="footer" class="text-center text-lg-start bg-warning  text-muted" style="background-color: #0e94b2;">
+      <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom" style="background-color: #0e94b2;">  
+      </section> 
+      <section class="" style="background-color: #0e94b2;">
+        <div class="container text-center text-md-start mt-5" style="background-color: #0e94b2;">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="background-color: #0e94b2;">    
+              <h6 class="text-uppercase fw-bold mb-4">
+                  <a href="/"> <img src="https://scontent.flim28-2.fna.fbcdn.net/v/t39.30808-6/301221023_929045381356332_3321477154963901148_n.png?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=rU4yZ6nYEkgAX_huwrW&_nc_ht=scontent.flim28-2.fna&oh=00_AfB0FITD5HBSD47B2ZZadBHckseKvKYKCaQ0EsPoePyKxA&oe=6425E9B7" width="50%"></a>   
+              </h6>
+              <p>
+                El agua mas pura que puedas probar
+              </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">   
+              <p>
+                <a href="/nosotros" class="text-reset">Nosotros</a>
+              </p>
+              <p>
+                <a href="/clientes" class="text-reset">Clientes</a>
+              </p>        
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">   
+              <p>
+                  <a href="/servicios" class="text-reset">Servicios</a>
+                </p>
+                <p>
+                    <a href="/contacto" class="text-reset">Contacto</a>
+                  </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="text-center p-4" style="background-color: #0e94b2;">
+        © 2023 Renzo López Lozano
+        
+      </div>
+    </footer>
+  
+
+    
+   
+</body>
+</html>
